@@ -1,0 +1,65 @@
+body {
+	font-family: Lato, Myriad Pro, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+section.form {
+	background: #f9f9f9;
+	text-align: center;
+}
+h4.contacter {
+	font-family: Myriad Pro;
+	font-size: 26px;
+	font-weight: lighter;
+	color: #48bf72;
+	padding-top: 53px;
+	margin: 0 auto;
+}
+div.form {
+	margin: 53px auto;
+	width: 700px;
+}
+div.first {
+	display: inline-block;
+}
+input {
+	background: #f1f1f1;
+	border-width: 2px;
+	border-color: #3c4955;
+	border-radius: 3px;
+	padding: 0 0 0 10px;
+}
+input.name{
+	width: 321px;
+	height: 46px;
+	float: left;
+	margin-right: 30px;
+}
+input.email{
+	width: 321px;
+	height: 46px;
+	float: right;
+}
+input.message{
+	margin: 30px 0;	
+	height: 224px;
+	padding-left: 10px;
+	width: 686px;
+}
+input.button{
+	background: #48bf72;
+	border-radius: 3px;
+	width: 700px;
+	height: 50px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	margin-bottom: 30px;
+}
+input.name: :before {
+	width: 50px; 
+	height: 50px;
+    background: black;
+}
