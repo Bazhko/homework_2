@@ -20,31 +20,66 @@ div.form {
 	width: 700px;
 }
 div.first {
-	display: inline-block;
+	display:block;
+}
+div.second {
+	float:right;
+	display:block;
+}
+div.third {
+	display:block;
+	float:right;
+	margin: 30px 0;	
 }
 input {
 	background: #f1f1f1;
 	border-width: 2px;
 	border-color: #3c4955;
 	border-radius: 3px;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 70px;
 }
 input.name{
-	width: 321px;
+	width: 261px;
 	height: 46px;
 	float: left;
 	margin-right: 30px;
 }
+i.user{
+	width: 50px;
+	height: 50px;
+	background: url('../images/css_sprites.png') -312px -88px;
+	background-color: #3c4955;
+	position: absolute;
+	display: block;
+	border-radius: 3px 0 0 3px;
+}
 input.email{
-	width: 321px;
+	width: 261px;
 	height: 46px;
 	float: right;
 }
+i.mail{
+	width: 50px;
+	height: 50px;
+	background: url('../images/css_sprites.png') -532px -301px;
+	background-color: #3c4955;
+	position: absolute;
+	display: block;
+	border-radius: 3px 0 0 3px;
+	float: left;
+}
 input.message{
-	margin: 30px 0;	
+	width: 626px;
 	height: 224px;
-	padding-left: 10px;
-	width: 686px;
+}
+i.message2{
+	width: 50px;
+	height: 226px;
+	background: url('../images/css_sprites.png') -309px -311px;
+	background-color: #3c4955;
+	position:absolute;
+	display: block;
+	border-radius: 3px 0 0 3px;
 }
 input.button{
 	background: #48bf72;
@@ -58,8 +93,21 @@ input.button{
 	border: 0;
 	margin-bottom: 30px;
 }
-input.name: :before {
-	width: 50px; 
-	height: 50px;
-    background: black;
+div.diamond  {
+	position: absolute;
+	display: block;
+    width: 12px;
+    height: 12px;
+    background: #3c4955;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 20px 0 10px 50px;
 }
