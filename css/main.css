@@ -36,6 +36,7 @@ input {
 	border-width: 2px;
 	border-color: #3c4955;
 	border-radius: 3px;
+	border-style: solid;
 	padding: 0 0 0 70px;
 }
 input.name{

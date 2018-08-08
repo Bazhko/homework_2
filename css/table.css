@@ -1,0 +1,46 @@
+body {
+	font-family: Times New Roman, sans-serif;
+	text-align: center;
+}
+h3 {
+	font: 16px normal;
+	margin: 0;
+}
+table {
+	margin: 0 auto;	
+	border-collapse: collapse;
+	width: 1170px;
+}
+th {
+	border: 1px solid #000;	
+}
+td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+.year {
+	width: 137px;
+}
+.entente {
+	width: 255px;
+}
+.change {
+	width: 255px;
+}
+.center {
+	width: 255px;
+}
+.neutral {
+	text-align: left;
+	width:
+}
+td.italy {
+	font-weight: 500;
+	color: white;
+	background: #36960c;
+}
+tfoot {
+	border-collapse: separate;
+	border: 5px double #000;
+	color: #0a0bfb;
+}
