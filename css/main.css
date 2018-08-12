@@ -3,18 +3,77 @@ body {
 	padding: 0;
 	margin: 0;
 }
+header {
+	width: 100%;
+	height: 650px;
+	background:  url("../images/computer.jpeg");
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: #ffffff;
+}
+.menu {
+	margin: 36px 0 0 390px;
+	padding: 0;
+	position: absolute;
+	z-index: 3;
+	list-style: none;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	color: white;
+	font-family: lato;
+	font-weight: bold;
+	font-size: 16px;
+}
+.menu li {
+	margin-right: 54px;
+}
+.menu ul {
+	margin-left: 587px;
+}
+.headerbackground {
+	display: block;
+	top: 0;
+	position: absolute;
+	background-color: rgba(60, 73, 85, 0.86);
+	width: 100%;
+	height: 650px;
+}
+h4.portfolio {
+	font-family: big john, sans-serif;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	top: 275px;
+	left: 491px;
+	margin: 0;
+}
+h3.portfolio {
+	font-family: slim joe, sans-serif;
+	font-size: 31px;
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	top: 359px;
+	left: 570px;
+	margin: 0;
+}
 section.form {
 	background: #f9f9f9;
 	text-align: center;
+	width: 100%;
 }
 h3.contacter {
-	font-family: Myriad Pro, sans-serif;
-	font-size: 26px;
-	font-weight: bold;
+	font-family: Big John, Myriad Pro, sans-serif;
+	font-size: 26pt;
 	color: #48bf72;
 	padding-top: 53px;
 	margin: 0 auto;
 	text-transform: uppercase;
+	font-weight: 300;
 }
 div.form {
 	margin: 53px auto;
@@ -49,7 +108,7 @@ input.name{
 i.user{
 	width: 50px;
 	height: 50px;
-	background: url('../images/css_sprites.png') -312px -88px;
+	background: url("../images/css_sprites.png") -312px -88px;
 	background-color: #3c4955;
 	position: absolute;
 	display: block;
@@ -85,16 +144,15 @@ i.message2{
 	border-radius: 3px 0 0 3px;
 }
 input.button{
-	font-family: inherit;
+	font-family: Lato-blod, sans-serif;
 	background: #48bf72;
 	border-radius: 3px;
 	width: 700px;
 	height: 50px;
 	text-decoration: none;
 	color: #ffffff;
-	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 14pt;
 	letter-spacing: 3px;
 	border: 0;
 	margin-bottom: 30px;
