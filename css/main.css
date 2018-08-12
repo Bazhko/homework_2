@@ -7,26 +7,27 @@ section.form {
 	background: #f9f9f9;
 	text-align: center;
 }
-h4.contacter {
-	font-family: Myriad Pro;
+h3.contacter {
+	font-family: Myriad Pro, sans-serif;
 	font-size: 26px;
-	font-weight: lighter;
+	font-weight: bold;
 	color: #48bf72;
 	padding-top: 53px;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 div.form {
 	margin: 53px auto;
 	width: 700px;
 }
-div.first {
+div.firstform {
 	display:block;
 }
-div.second {
+div.secondform {
 	float:right;
 	display:block;
 }
-div.third {
+div.thirdform {
 	display:block;
 	float:right;
 	margin: 30px 0;	
@@ -72,6 +73,7 @@ i.mail{
 input.message{
 	width: 626px;
 	height: 224px;
+	vertical-align: top;
 }
 i.message2{
 	width: 50px;
@@ -83,6 +85,7 @@ i.message2{
 	border-radius: 3px 0 0 3px;
 }
 input.button{
+	font-family: inherit;
 	background: #48bf72;
 	border-radius: 3px;
 	width: 700px;
@@ -90,9 +93,12 @@ input.button{
 	text-decoration: none;
 	color: #ffffff;
 	font-weight: bold;
+	text-transform: uppercase;
 	font-size: 14px;
+	letter-spacing: 3px;
 	border: 0;
 	margin-bottom: 30px;
+	padding: 0;
 }
 div.diamond  {
 	position: absolute;
